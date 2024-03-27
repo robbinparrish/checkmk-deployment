@@ -1,0 +1,5 @@
+[Unit]
+Description=Checkmk Deployment Backup
+
+[Service]
+ExecStart=/usr/bin/checkmk-deployment-backup.sh
